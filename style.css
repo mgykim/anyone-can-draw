@@ -117,7 +117,7 @@ a{
   grid-area: 5/8/8/11;
   background-color: white;
   color: #80475E;
-  text-align: center;
+  text-align: left;
   padding-top: 1vw;
   border: #80475E;
   border-width: .5vw;
@@ -125,8 +125,9 @@ a{
   border-style: solid;
 
   font-family: 'Rubik';
-  font-size: 2vw;
-  line-height: 1;
+  padding: 1vw;
+  font-size: 1.1vw;
+  line-height: 1.1;
 
   box-shadow: .5vw .5vw 0 #80475E;
 }
@@ -137,7 +138,7 @@ a{
   border-width: .5vw;
   border-bottom-right-radius: 1vw;
   border-style: solid;
-  padding-top: 2vw;
+  padding-top: 1.4vw;
 }
 #hairli{
   grid-area: 1/8/4/12;
@@ -150,14 +151,12 @@ a{
   text-align: center;
 }
 #handsli{
-  grid-area: 6/11/10/14;
+  grid-area: 6/11/9/15;
   background-color: #CC5A71;
   border: #CC5A71;
   border-width: .5vw;
   border-radius: 1vw;
   border-style: solid;
-  padding-top: 1vw;
-  margin-bottom: 6.2vw;
   margin-right: 1vw;
   text-align: center;
 }
@@ -198,10 +197,11 @@ a img{
 }
 #faceCover{
   width: 21vw;
+  height: 12vw;
   border-bottom-right-radius: 1vw;
   border-top-right-radius: 1vw;
   margin-left: -1.8vw;
-  margin-top: 2.9vw;
+  margin-top: 1.4vw;
 }
 #hairCover{
   border-radius: 1vw;
@@ -209,10 +209,10 @@ a img{
 }
 #handsCover{
   border-radius: 1vw;
-  margin-top: 1.4vw;
+  height: 8.8vw;
 }
 #colorCover{
   border-radius: 1vw;
-  margin-top: 2vw;
-  height: 11vw;
+  margin-top: 1.2vw;
+  height: 12vw;
 }
