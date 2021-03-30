@@ -137,9 +137,11 @@ h1{
   border-width: .5vw;
   border-radius: 1vw;
   border-style: solid;
+  margin-bottom: 2vw;
 }
 .steps{
   background-color: #34344A;
+  margin: 0;
   width: 17vw;
   height: 7vw;
   border: #34344A;
