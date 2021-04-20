@@ -6,6 +6,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="hair.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
   </head>
   <body>
     <a id="title" href="index.html">ANYONE CAN DRAW</a>
@@ -19,16 +26,30 @@
       <div id="header">
         <h2>here's how you draw:</h2>
         <h1>hair</h1>
-        <img src="hair/photo_2021-03-23_14-19-31.jpg">
+          <a href="hair/photo_2021-03-23_14-19-31.jpg" data-fancybox>
+            <img src="hair/photo_2021-03-23_14-19-31.jpg">
+          </a>
       </div>
 
-      <img id="img1" class="imgs" src="hair/1.jpg">
+
+      <a id="img1" href="hair/1.jpg" data-fancybox data-caption="Step 1">
+        <img class="imgs" src="hair/1.jpg">
+      </a>
       <p id="step1" class="steps">Hairline is the same height above the eyebrows as the eyebrows to the nose, or the nose to the chin</p>
-      <img id="img2" class="imgs" src="hair/2.jpg">
+
+      <a id="img2" href="hair/2.jpg" data-fancybox data-caption="Step 2">
+        <img class="imgs" src="hair/2.jpg">
+      </a>
       <p id="step2" class="steps">There are three parts to focus on: bangs, sides, and back. Make sure to follow the direction of the part. Short hair has a swirl parting</p>
-      <img id="img3" class="imgs" src="hair/3.jpg">
+
+      <a id="img3" href="hair/3.jpg" data-fancybox data-caption="Step 3">
+        <img class="imgs" src="hair/3.jpg">
+      </a>
       <p id="step3" class="steps">Longer hair has a more straightforward parting. If there are bangs, the bangs come out in a radial direction</p>
-      <img id="img4" class="imgs" src="hair/4.jpg">
+
+      <a id="img4" href="hair/4.jpg" data-fancybox data-caption="Step 4">
+        <img class="imgs" src="hair/4.jpg">
+      </a>
       <p id="step4" class="steps">Dont draw hair straight; add volume (curvature). For wavy/curly hair, try to follow the direction of the flow of the hair, so it wont have a messy look</p>
 
     </div>
